@@ -1,0 +1,51 @@
+body {
+    font-size: 22px;
+    background-color: rgb(226, 213, 213);
+}
+#Titulo {   /*Tamaño del titulo principal*/
+    font-weight: normal;
+    font-size: 3.5em;
+    color: blue;
+}
+em, strong {    /*Color amarillo de las palabras en negrita y cursiva*/
+    background-color: rgb(236, 252, 10);
+}
+h3 {    /*Tamaño de los titulos de cada parrafo*/
+    font-size: 1.7em;
+    color: black;
+}
+.destacado{ /*Modificación del fondo y color del texto*/
+    color: red;
+    border-style: dashed solid; color: black;
+    background-color: yellow;
+}
+
+.destacado2 {   /*Color verde para enunciado con hipervinculo*/
+    color: green
+}
+.destacado2 a{ /*Color para hipervinculo*/
+    color: green
+}
+.cpbm { /*Ajuste de ubicacion y color de texto*/
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    color: red;
+}
+div {   /*Modificación para el cuadro DIV*/
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #5D6063;
+    border-radius: 8px;
+    width: 75%;
+}
+table { /*Ajuste de la tabla*/
+    border: 10px solidblack;
+}
+.centrar { /*Ajustado de imagen y texto*/
+    width: 400px;
+    margin: 40px auto;
+}
